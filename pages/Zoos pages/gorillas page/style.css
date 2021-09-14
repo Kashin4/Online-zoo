@@ -1,0 +1,694 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+body {
+  margin: 0 auto;
+}
+
+/*---------header---------*/
+.header {
+  background-color: #F58021 ;
+}
+.container-header {
+    width: 1400px;
+    margin: 0 auto;
+    height: 110px;
+}
+.h1 {
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+  clip: rect(0 0 0 0)
+}
+.logo {
+  position: relative;
+  top: 30px;
+  left:0px;
+  float: left;
+  width: 96px;
+  height: 50px;
+}
+.logo-img {
+  fill: black;
+  width: 96px;
+  height: 50px;
+}
+/*-------------Navigation--------*/
+.item {
+display: inline-block;
+list-style-type:none;
+
+}
+.navigation {
+  position: relative;
+  width: 751px;
+  top: 27px;
+  left: 459px;
+}
+
+.navi {
+margin-left: 45px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 150%;
+text-transform: uppercase;
+}
+.link-header {
+  text-decoration: none;
+  color: #000000;
+}
+.link-header:hover{
+  color: #00A092;
+}
+.zoos :visited{
+  color: #00A092;
+}
+.zoos{
+  pointer-events: none;
+}
+a {
+  text-decoration: none;
+}
+/*-------------Social--------*/
+.social {
+  position: relative;
+  bottom: 38px;
+  left: 0px;
+  float: right;
+}
+.soci {
+  margin-left: 26px;
+  margin-right: auto;
+
+}
+.youtube {
+  width: 40px;
+  height: 40px;
+}
+.youtube :hover{
+  fill-opacity: 0.7;
+}
+.instagram {
+  width: 40px;
+  height: 40px;
+}
+.instagram :hover{
+  fill-opacity: 0.7;
+}
+.facebook {
+  width: 40px;
+  height: 40px;
+}
+.facebook :hover{
+  fill-opacity: 0.7;
+}
+
+/*-----------BLOCK_2----------------*/
+.panda{
+  margin: 0 auto;
+}
+/*-----------live-panda----------------*/
+.live-panda {
+  height: 1497px;
+  width: 1400px;
+  margin: auto;
+}
+/*---------------SIDE---------------------*/
+.side-panel{
+  width: 212px;
+  height: 846px;
+  background: #20113D;
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  float: left;
+}
+.side-list{
+  list-style-type:none;
+  padding: 0;
+  margin: 0;
+}
+.open-side{
+  height: 81px;
+}
+.img-open-side{
+  margin-left: -8px;
+  float: left;
+}
+.arrow-open-side{
+  margin-top: 31px;
+  margin-left: 54px;
+}
+/*--------------PANDA---------*/
+.side-panda{
+  border-top: 1px solid #FFFFFF;
+  border-bottom: 1px solid #FFFFFF;
+  height: 169px;
+  pointer-events:none;
+}
+.panda-aside-link{
+  background-image: url(./assets/images/Ellipse-white.png);
+  width: 120px;
+  height: 120px;
+  margin-top: 24px;
+  margin-left: 43px;
+  position: absolute;
+}
+.panda-svg {
+  width: 80px;
+  height: 60px;
+  margin-top: 22px;
+  margin-left: 16px;
+}
+/*--------------eagle---------*/
+.side-eagle{
+  border-bottom: 1px solid #FFFFFF;
+  height: 172px;
+}
+.eagle-aside-link{
+  background-image: url(./assets/images/Ellipse.png);
+  width: 113px;
+  height: 104px;
+  margin-top: 33px;
+  margin-left: 46px;
+  position: absolute;
+}
+.eagle-svg {
+  width: 80px;
+  height: 60px;
+  margin-top: 21px;
+  margin-left: 16px;
+}
+/*--------------gorilla---------*/
+.side-gorilla{
+  border-bottom: 1px solid #FFFFFF;
+  height: 169px;
+}
+.gorilla-aside-link{
+  background-image: url(./assets/images/Ellipse.png);
+  width: 113px;
+  height: 104px;
+  margin-top: 33px;
+  margin-left: 46px;
+  position: absolute;
+}
+.gorilla-svg {
+  width: 80px;
+  height: 60px;
+  margin-top: 28px;
+  margin-left: 20px;
+}
+/*--------------lemur---------*/
+.side-lemur{
+  border-bottom: 1px solid #FFFFFF;
+  height: 171px;
+}
+.lemur-aside-link{
+  background-image: url(./assets/images/Ellipse.png);
+  width: 113px;
+  height: 104px;
+  margin-top: 33px;
+  margin-left: 46px;
+  position: absolute;
+}
+.lemur-svg {
+  width: 80px;
+  height: 60px;
+  margin-top: 22px;
+  margin-left: 16px;
+}
+.arrow-side{
+  height: 85px;
+}
+.arrow-down-side{
+  margin-top: 36px;
+  margin-left: 95px;
+}
+/*-----------------LIVE-------------------*/
+.live-theme{
+  width: 463px;
+  height: 66px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 54px;
+  line-height: 66px;
+  text-transform: uppercase;
+  color: #00A092;
+  margin: auto;
+  padding-top: 54px;
+
+}
+.live-donate{
+  width: 240px;
+  height: 74px;
+  background: #F58021;
+  border-radius: 5px;
+  margin: 0px;
+  margin-left: 1160px;
+  margin-top: -70px;
+  position: absolute;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  display: inline-flex;
+  padding-top: 24px;
+  padding-left: 34px;
+  cursor: pointer;
+}
+.live-donate:hover{
+  background: #D26004;
+}
+.live-video{
+  margin-top: 50px;
+}
+
+.live-theme2{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 42px;
+  line-height: 51px;
+  text-transform: uppercase;
+  color: #000000;
+  margin-bottom: 0px;
+  margin-top: 97px;
+  margin-left: 503px;
+}
+.arroy1:hover{
+  width: 24px;
+  height: 22px;
+  fill-opacity: 0.3;
+  padding-top: 93px;
+  cursor: pointer;
+}
+.arroy1{
+  width: 24px;
+  height: 22px;
+  fill: #20113D;
+  padding-top: 93px;
+  cursor: pointer;
+}
+.arroy2:hover{
+  width: 24px;
+  height: 22px;
+  fill-opacity: 0.3;
+  padding-top: 93px;
+  cursor: pointer;
+}
+.arroy2{
+  width: 24px;
+  height: 22px;
+  fill: #20113D;
+  padding-bottom: 93px;
+  transform: rotate(180deg);
+}
+.live-video2{
+  display: flex;
+  flex-wrap: wrap;
+  height: 320px;
+  width: 1170px;
+  justify-content: space-between;
+  align-content:space-between;
+  margin-top: 29px;
+  margin-left: 175px;
+}
+.box{
+  width: 320px;
+  height: 209px;
+  overflow: hidden;
+  border-radius: 2px;
+}
+.cam{
+  position: absolute;
+}
+/*-----------BLOCK_3----------------*/
+/*-----------donation----------------*/
+.donation{
+  background-color: #20113D;
+  height: 224px;
+}
+.container-donation{
+  width: 1400px;
+  margin: 0 auto;
+}
+.text-don{
+  width: 889px;
+  float: left;
+}
+.donate-theme {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 42px;
+  line-height: 51px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin: 0;
+  width: 906px;
+  height: 51px;
+  padding-top: 51px;
+}
+.donate-text{
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 150%;
+color: #FFFFFF;
+width: 919px;
+height: 78px;
+letter-spacing: -0.18px;
+padding-top: 2px;
+padding-left: 5px;
+}
+.don-cont{
+  padding-top: 51px;
+}
+.donate {
+font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 26px;
+line-height: 130%;
+color: #FFFFFF;
+padding-left: 191px;
+}
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+-webkit-appearance: none;
+margin: 0;
+}
+
+.form-donate {
+  height: 74px;
+  display: flex;
+  padding-left: 191px;
+  padding-top: 10px;
+}
+.number-donate{
+  width: 240px;
+  height: 66px;
+  background: #20113D;
+}
+.submit-donate {
+  width: 80px;
+  height: 74px;
+  background: #F58021;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.submit-donate:hover{
+  background: #D26004;
+}
+.arroy5{
+  width: 25px;
+  height: 22px;
+}
+/*-----------BLOCK_4----------------*/
+/*-----------information----------------*/
+.information{
+  height: 1481px;
+  width: 1400px;
+  margin: auto;
+}
+.container-info{
+  padding-top: 175px;
+  margin:0px;
+}
+.know{
+  width: 1040px;
+  height: 299px;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+
+  margin-left: 240px;
+}
+.know-them{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 42px;
+  line-height: 51px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #00A092;
+  margin: 0px;
+  padding-top: 52px;
+}
+.know-text{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 130%;
+  text-align: center;
+  color: #000000;
+  margin: 0px;
+  padding-top: 19px;
+  padding-left: 71px;
+  width: 919px;
+  height: 128px;
+  white-space: pre;
+}
+.info{
+  margin: 0px;
+  width: 479px;
+  height: 382px;
+  margin-top: 139px;
+}
+.ulist-info{
+  margin: 0;
+  padding: 0;
+}
+.info-list{
+  list-style-type:none;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 313%;
+  display: flex;
+  align-items: center;
+  color: #000000; 
+  white-space: pre;
+}
+.info-title{
+font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 26px;
+line-height: 130%;
+display: flex;
+align-items: center;
+color: #000000;
+}
+.gorilla-info{
+  border-radius: 5px;
+  margin-left: 720px;
+  margin-top: -370px;
+}
+.info-text-container{
+  margin-top: 47px;
+}
+.info-text {
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 150%;
+display: flex;
+align-items: center;
+color: #000000;
+width: 1160px;
+height: 216x;
+letter-spacing: -0.11px;
+word-spacing: -0.18px;
+}
+/*---------------view-map-button-----------------------*/
+.view-map {
+font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 22px;
+text-transform: uppercase;
+color: #F58021;
+letter-spacing: 1.3px;
+}
+.arroy4{
+  width: 28px;
+  height: 25px;
+}
+.view-map:hover{
+  opacity: 0.7;
+}
+.arroy4:hover{
+  fill-opacity: 0.7;
+}
+/*-----------BLOCK_5----------------*/
+/*-----------FOOTER----------------*/
+
+.footer{
+  background-color:#20113D;
+  height: 329px;
+}
+.container-footer{
+  width: 1400px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 82px;
+}
+.container-footer2{
+  width: 1400px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 21px;
+}
+.logo-footer {
+  width: 415px;
+  height: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content:space-between;
+}
+/*------logofooter---------------*/
+.logofooter {
+  float: left;
+  width: 96px;
+  height: 50px;
+}
+.logofooter2 {
+  float: left;
+  width: 50px;
+  height: 50px;
+}
+.logofooter3 {
+  float: left;
+  width: 138px;
+  height: 51px;
+}
+/*-----------------navigation------------*/
+.spisok-footer{
+font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 150%;
+text-transform: uppercase;
+margin: 0px;
+display: flex;
+justify-content: space-between;
+
+}
+.navigation-footer{
+  width: 509px;
+  height: 22px;
+  padding-right: 86px;
+  padding-top: 10px;
+}
+.navifoot{
+margin-left: 45px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 150%;
+text-transform: uppercase;
+}
+.link-footer{
+  color: #FFFFFF;
+  text-decoration: none;
+}
+.link-footer:hover{
+  color: #F58021;;
+}
+.butfoot {
+  width: 359px;
+  height: 74px;
+  margin-top: -12px;
+  border: 1px solid #FFFFFF;
+  box-sizing: border-box;
+  border-radius: 5px;
+  background: #20113D;
+  padding-bottom: 6px;
+  padding-right: 5px;
+  display: inline-flex;
+  padding-top: 24px;
+  padding-left: 34px;
+  cursor: pointer;
+}
+.butfoot :hover{
+  opacity: 0.7;
+}
+.line-foot-container{
+  margin: auto;
+  width: 1400px;
+}
+.line-footer{
+  height: 0px;
+  width: 1400px;
+  border: none;
+  border-top: 2px solid #FFFFFF;
+  margin-top: 69px;
+}
+.but-don-text{
+  font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 22px;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+.arroy3{
+  width: 24px;
+  height: 22px;
+  padding-left: 11px;
+}
+.social2{
+  width: 200px;
+ height: 40px;
+}
+.social-link2{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: space-between;
+  width: 240px;
+  padding: 0px;
+  margin-left: -26px;
+}
+
+.copy-cont{
+  width: 448px;
+  height: 27px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content:space-between;
+  padding-top: 23px;
+}
+
+.copy{
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 150%;
+color: #FFFFFF;
+}
